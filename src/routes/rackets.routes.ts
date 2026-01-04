@@ -1,8 +1,8 @@
-import express, { Request, Response } from 'express'
+import express, { Request, Response, Router } from 'express'
 import { Prisma, Brand, Balance, Stiffness } from '@prisma/client'
 import prisma from '../config/prisma'
 
-const router = express.Router()
+const router: Router = express.Router()
 
 // Create racket
 router.post('/', async (req: Request, res: Response) => {

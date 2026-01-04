@@ -1,9 +1,9 @@
-import express, { Request, Response } from 'express'
 import * as bcrypt from 'bcryptjs'
+import express, { Request, Response, Router } from 'express'
 import jwt from 'jsonwebtoken'
 import prisma from '../config/prisma'
 
-const router = express.Router()
+const router: Router = express.Router()
 
 // Login
 router.post('/login', async (req: Request, res: Response) => {
@@ -12,7 +12,9 @@ router.post('/login', async (req: Request, res: Response) => {
     console.log(req.body)
 
     if (!mail || !password) {
-      return res.status(400).json({ message: 'Email and password are required' })
+      return res
+        .status(400)
+        .json({ message: 'Email and password are required' })
     }
 
     const user = await prisma.user.findUnique({
@@ -52,9 +54,7 @@ router.post('/register', async (req: Request, res: Response) => {
     const { username, email, phone, password, address } = req.body
 
     if (!username || !email || !phone || !password || !address) {
-      return res
-        .status(400)
-        .json({ message: 'All fields are required' })
+      return res.status(400).json({ message: 'All fields are required' })
     }
 
     // Check if email is already taken
@@ -113,4 +113,3 @@ router.get('/verify', async (req: Request, res: Response) => {
 })
 
 export default router
-

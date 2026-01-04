@@ -1,7 +1,7 @@
-import express, { Request, Response } from 'express'
+import express, { Request, Response, Router } from 'express'
 import prisma from '../config/prisma'
 
-const router = express.Router()
+const router: Router = express.Router()
 
 // Get all products with optional search
 router.get('/', async (req: Request, res: Response) => {

@@ -1,7 +1,7 @@
-import express, { Request, Response } from 'express'
+import express, { Request, Response, Router } from 'express'
 import prisma from '../config/prisma'
 
-const router = express.Router()
+const router: Router = express.Router()
 
 // Get cart by customer ID
 router.get('/:customerId', async (req: Request, res: Response) => {
