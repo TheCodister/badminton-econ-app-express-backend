@@ -103,8 +103,10 @@ router.get('/verify', async (req: Request, res: Response) => {
     try {
       const decoded = jwt.verify(token, jwtSecret)
       return res.json(decoded)
-    } catch (err) {
-      return res.status(401).json({ message: 'Invalid or expired token' })
+    } catch (error) {
+      return res
+        .status(401)
+        .json({ message: 'Invalid or expired token', error })
     }
   } catch (error) {
     console.error('Verify token error:', error)

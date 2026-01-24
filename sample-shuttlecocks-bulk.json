@@ -1,0 +1,182 @@
+[
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/san_pham/ong-cau-long-yonex-as40-1.webp",
+    "product_name": "YONEX AEROSENSA 40",
+    "brand": "YONEX",
+    "price": 900000,
+    "description": "High-quality feather shuttlecock with good flight characteristics. Suitable for intermediate to advanced players.",
+    "status": "AVAILABLE",
+    "sales": true,
+    "stock": 75,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Feather",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://joybadminton.com/cdn/shop/files/VICTORChampionNO.1FeatherShuttlecock.png",
+    "product_name": "VICTOR CHAMPION NO.1",
+    "brand": "VICTOR",
+    "price": 1100000,
+    "description": "Professional grade feather shuttlecock. Excellent flight characteristics and durability. Used in international competitions.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 40,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Can Tho"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Feather",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/san_pham/ong-cau-long-lining-ayqn-024-1.webp",
+    "product_name": "LINING AYQN024",
+    "brand": "LINING",
+    "price": 950000,
+    "description": "Premium feather shuttlecock with superior flight stability. Made from selected goose feathers. Ideal for competitive play.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 60,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Feather",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://example.com/images/yonex-mavis-350.jpg",
+    "product_name": "TARO SHUTTLECOCK",
+    "brand": "TARO",
+    "price": 260000,
+    "description": "Durable nylon shuttlecock perfect for training and recreational play. Excellent value for money with consistent flight performance.",
+    "status": "AVAILABLE",
+    "sales": true,
+    "stock": 100,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Hai Phong"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Nylon",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://example.com/images/victor-champion-no3.jpg",
+    "product_name": "VICTOR LARK 5",
+    "brand": "VICTOR",
+    "price": 325000,
+    "description": "Quality feather shuttlecock for intermediate players. Good balance between performance and price.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 80,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Feather",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/san_pham/ong-cau-long-yonex-as30-1.webp",
+    "product_name": "YONEX AEROSENSA 30",
+    "brand": "YONEX",
+    "price": 750000,
+    "description": "Affordable feather shuttlecock with reliable performance. Great for practice and casual games.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 90,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Feather",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/ong-cau-long-nhua-victor-ncs-chinh-hang-12-qua_1751075550.webp",
+    "product_name": "Victor NCS",
+    "brand": "VICTOR",
+    "price": 1050000,
+    "description": "Professional feather shuttlecock with excellent flight stability. Made from premium goose feathers. Perfect for tournaments.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 45,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Plastic",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/ong-cau-long-taro-c01_1748911487.webp",
+    "product_name": "TARO C01",
+    "brand": "TARO",
+    "price": 285000,
+    "description": "High-quality feather shuttlecock with good durability. Suitable for intermediate to advanced players.",
+    "status": "AVAILABLE",
+    "sales": true,
+    "stock": 70,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Feather",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/ong-cau-long-kamito-k10-1_1729816594.webp",
+    "product_name": "KAMITO K10",
+    "brand": "KAMITO",
+    "price": 275000,
+    "description": "Premium nylon shuttlecock with enhanced durability. Designed for intensive training sessions. Weather-resistant construction.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 120,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Hai Phong", "Can Tho"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Nylon",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/san_pham/ong-cau-long-vnb-m01-1.webp",
+    "product_name": "VNB M01",
+    "brand": "VNB",
+    "price": 260000,
+    "description": "Professional grade feather shuttlecock. Excellent flight characteristics and consistent performance. Used by many professional players.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 55,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang"]
+    },
+    "shuttlecock": {
+      "shuttle_type": "Feather",
+      "speed": 77,
+      "no_per_tube": 12
+    }
+  }
+]

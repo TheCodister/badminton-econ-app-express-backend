@@ -1,0 +1,18 @@
+{
+  "image_url": "https://cdn.shopvnb.com/uploads/san_pham/ong-cau-long-yonex-as50-1.webp",
+  "product_name": "YONEX AEROSENSA 50",
+  "brand": "YONEX",
+  "price": 1200000,
+  "description": "Premium feather shuttlecock with excellent flight stability and durability. Made from high-quality goose feathers. Perfect for professional and advanced players.",
+  "status": "AVAILABLE",
+  "sales": false,
+  "stock": 50,
+  "available_location": {
+    "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang"]
+  },
+  "shuttlecock": {
+    "shuttle_type": "Feather",
+    "speed": 77,
+    "no_per_tube": 12
+  }
+}

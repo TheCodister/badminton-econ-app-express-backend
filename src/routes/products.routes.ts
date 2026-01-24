@@ -22,15 +22,47 @@ router.get('/', async (req: Request, res: Response) => {
         product_name: true,
         image_url: true,
         price: true,
+        racket: {
+          select: {
+            id: true,
+          },
+        },
+        shoes: {
+          select: {
+            id: true,
+          },
+        },
+        shuttlecocks: {
+          select: {
+            id: true,
+          },
+        },
       },
       take: limit ? parseInt(String(limit), 10) : undefined,
     })
 
-    // Convert prices from VND to USD
-    const productsWithUSD = products.map((product) => ({
-      ...product,
-      price: parseFloat((+product.price / 24000).toFixed(2)),
-    }))
+    // Convert prices from VND to USD and determine product type
+    const productsWithUSD = products.map((product) => {
+      let productType = 'unknown'
+      
+      // Determine product type based on which relation exists
+      // Since these are one-to-one relations, check if the array has any items
+      if (product.racket && product.racket.length > 0) {
+        productType = 'racket'
+      } else if (product.shoes && product.shoes.length > 0) {
+        productType = 'shoes'
+      } else if (product.shuttlecocks && product.shuttlecocks.length > 0) {
+        productType = 'shuttlecock'
+      }
+
+      return {
+        id: product.id,
+        product_name: product.product_name,
+        image_url: product.image_url,
+        price: parseFloat((+product.price / 24000).toFixed(2)),
+        product_type: productType,
+      }
+    })
 
     return res.json(productsWithUSD)
   } catch (error) {
