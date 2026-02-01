@@ -1,0 +1,19 @@
+{
+  "image_url": "https://cdn.shopvnb.com/uploads/san_pham/giay-cau-long-yonex-aerus-z-1.webp",
+  "product_name": "YONEX AERUS Z",
+  "brand": "YONEX",
+  "price": 2500000,
+  "description": "Professional badminton shoes with excellent cushioning and stability. Designed for quick movements and lateral support. Perfect for competitive players.",
+  "status": "AVAILABLE",
+  "sales": false,
+  "stock": 30,
+  "available_location": {
+    "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang"]
+  },
+  "shoes": {
+    "color": ["White", "Blue", "Red"],
+    "size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44", "EU 45"],
+    "available_size": ["EU 40", "EU 41", "EU 42", "EU 43"],
+    "technology": ["Power Cushion", "Non-marking sole", "Lightweight construction"]
+  }
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "image_url": "https://caulong360.com/wp-content/uploads/2024/12/Aerus-Z3.jpg",
+    "product_name": "YONEX AERUS Z3",
+    "brand": "YONEX",
+    "price": 2850000,
+    "description": "The latest 2026 iteration of Yonex's lightest shoe. Focused on explosive speed and weight reduction without sacrificing the signature Power Cushion+ impact protection.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 25,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang"]
+    },
+    "shoes": {
+      "color": ["White/Blue", "White/Orange", "Cyan"],
+      "size": ["EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44", "EU 45"],
+      "available_size": ["EU 40", "EU 41", "EU 42", "EU 43"],
+      "technology": ["Power Cushion+", "Radial Blade Sole", "Feather Light X", "Durable Skin Light"]
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/giay-cau-long-yonex-shb-65z4-men-trang-2025-chinh-hang_1736970262.webp",
+    "product_name": "YONEX 65Z4 (2026 Edition)",
+    "brand": "YONEX",
+    "price": 2950000,
+    "description": "The gold standard all-around shoe updated for 2026. Features improved lateral shell stability and the most refined Power Cushion+ for professional-grade shock absorption.",
+    "status": "AVAILABLE",
+    "sales": true,
+    "stock": 40,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Hai Phong"]
+    },
+    "shoes": {
+      "color": ["Black/Silver", "White/Gold", "Navy"],
+      "size": ["EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"],
+      "available_size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44"],
+      "technology": ["Power Cushion+", "Lateral Shell", "Power Graphite Sheet", "Syncro-Fit Insole"]
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/giay-cau-long-yonex-subaxia-gt-men-dark-gray-chinh-hang_1768944576.webp",
+    "product_name": "YONEX SUBAXIA GT",
+    "brand": "YONEX",
+    "price": 3200000,
+    "description": "The brand new 2026 flagship model. Combines the high-end stability of the Eclipsion series with the speed of the Aerus. Features the new GRPHT THRTTL technology for explosive repulsion.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 15,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shoes": {
+      "color": ["Dark Gray", "Light Gray"],
+      "size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44", "EU 45"],
+      "available_size": ["EU 41", "EU 42", "EU 43", "EU 44"],
+      "technology": ["GRPHT THRTTL", "Power Cushion+", "Double Raschel Mesh", "Toe Assist Shape"]
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/giay-cau-long-victor-a970-nitro-lite-cf-chinh-hang-3_1705346448.webp",
+    "product_name": "VICTOR A970 NITROLITE",
+    "brand": "VICTOR",
+    "price": 2750000,
+    "description": "Victor's flagship speed shoe utilizing NitroLite nitrogen-infused foam. Provides an incredible balance of lightweight feel and resilient cushioning for professional athletes.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 35,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Can Tho"]
+    },
+    "shoes": {
+      "color": ["White", "Black/Purple", "Red"],
+      "size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44", "EU 45"],
+      "available_size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44"],
+      "technology": ["NitroLite Midsole", "E-TPU", "Carbon Power", "VSR Rubber"]
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/giay-cau-long-victor-p9200iii-do-chinh-hang-2_1711328192.webp",
+    "product_name": "VICTOR P9200III",
+    "brand": "VICTOR",
+    "price": 2600000,
+    "description": "The third generation of the legendary P9200 series. Optimized for maximum lateral support and heel protection, making it the choice for heavy jumpers and power players.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 20,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shoes": {
+      "color": ["White/Gold", "Blue"],
+      "size": ["EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"],
+      "available_size": ["EU 40", "EU 41", "EU 42"],
+      "technology": ["Tri-Arch Support", "EnergyMax V", "LS-S Stability", "Neo Duplex"]
+    }
+  },
+  {
+    "image_url": "https://www.shopnings.com/media/catalog/product/cache/7604690e2431281e8194543462f8084a/9/1/910986bc0709e19a97713e6d16a246120667453d8a20108f19c687e677eb7f10b38624078f777ed3.webp",
+    "product_name": "LI-NING YUN TING PRO",
+    "brand": "LINING",
+    "price": 3100000,
+    "description": "The premium professional model used by top international players. Combines Li-Ning Boom technology with a full-length carbon plate for maximum energy return and stability.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 18,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shoes": {
+      "color": ["White/Gold", "Black/Gray"],
+      "size": ["EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"],
+      "available_size": ["EU 40", "EU 41", "EU 42", "EU 43"],
+      "technology": ["Li-Ning Boom", "Carbon-Fiber Plate", "Probar Loc", "TUFF TIP"]
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/giay-cau-long-mizuno-wave-claw-3-xanh-trang-xanh-chinh-hang-71ga244301_1719795015.webp",
+    "product_name": "MIZUNO WAVE CLAW 3",
+    "brand": "MIZUNO",
+    "price": 2800000,
+    "description": "The latest 2025 release from Mizuno's speed line. Features the upgraded Wave plate and Enerzy foam for a more responsive and aggressive court feel.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 22,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Da Nang"]
+    },
+    "shoes": {
+      "color": ["White/Silver", "Navy/Red"],
+      "size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44", "EU 45"],
+      "available_size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44"],
+      "technology": ["Mizuno Wave", "Mizuno Enerzy", "D-Flex Groove", "XG Rubber"]
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/giay-cau-long-lining-ayau003-2-chinh-hang_1718152356.webp",
+    "product_name": "LI-NING BLADE DF",
+    "brand": "LINING",
+    "price": 2400000,
+    "description": "High-performance shoe focused on flexibility and court feel. The Blade DF is designed for agile players who need a low-profile shoe with elite-level grip.",
+    "status": "AVAILABLE",
+    "sales": true,
+    "stock": 30,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shoes": {
+      "color": ["Black/Green", "White/Blue"],
+      "size": ["EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"],
+      "available_size": ["EU 39", "EU 40", "EU 41", "EU 42"],
+      "technology": ["Light Foam", "Bounse+", "Cool Shell", "Probar Loc"]
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/giay-cau-long-victor-p8500-ii-b-chinh-hang_1736735506.webp",
+    "product_name": "VICTOR P8500II",
+    "brand": "VICTOR",
+    "price": 2550000,
+    "description": "The modern update to the classic P8500. Known for its incredible ankle wrapping and stability, now enhanced with better breathability and lighter midsole materials.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 28,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City", "Hai Phong"]
+    },
+    "shoes": {
+      "color": ["White", "Blue", "Black"],
+      "size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44", "EU 45"],
+      "available_size": ["EU 41", "EU 42", "EU 43", "EU 44"],
+      "technology": ["HYPEREVA", "Talonia", "Carbon Power", "U-Shape Toe"]
+    }
+  },
+  {
+    "image_url": "https://cdn.shopvnb.com/uploads/gallery/giay-cau-long-yonex-eclipsion-z3-men-light-blue-ma-jp_1732236306.webp",
+    "product_name": "YONEX ECLIPSION Z3",
+    "brand": "YONEX",
+    "price": 3050000,
+    "description": "Yonex's most stable shoe ever created. Designed for players with high-intensity footwork who require maximum confidence in their lateral movements.",
+    "status": "AVAILABLE",
+    "sales": false,
+    "stock": 32,
+    "available_location": {
+      "locations": ["Hanoi", "Ho Chi Minh City"]
+    },
+    "shoes": {
+      "color": ["Navy/Red", "White"],
+      "size": ["EU 40", "EU 41", "EU 42", "EU 43", "EU 44", "EU 45"],
+      "available_size": ["EU 40", "EU 41", "EU 42", "EU 43"],
+      "technology": ["Power Cushion+", "Durable Skin", "Inner Bootie", "Radial Blade Sole"]
+    }
+  }
+]

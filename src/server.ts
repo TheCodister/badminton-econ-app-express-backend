@@ -5,6 +5,7 @@ import authRoutes from './routes/auth.routes'
 import cartRoutes from './routes/cart.routes'
 import productsRoutes from './routes/products.routes'
 import racketsRoutes from './routes/rackets.routes'
+import shoesRoutes from './routes/shoes.routes'
 import shuttlecocksRoutes from './routes/shuttlecocks.routes'
 
 // Load environment variables
@@ -33,6 +34,7 @@ app.use('/auth', authRoutes)
 app.use('/products', productsRoutes)
 app.use('/rackets', racketsRoutes)
 app.use('/shuttlecocks', shuttlecocksRoutes)
+app.use('/shoes', shoesRoutes)
 app.use('/shoppingcart', cartRoutes)
 
 // Health check
