@@ -84,9 +84,13 @@ router.get('/', async (req: Request, res: Response) => {
       }
     }
 
-    // Note: JSON field filtering for color and size can be added later
-    // For now, we'll filter by brand and price only
-    // JSON filtering in Prisma requires specific syntax based on your JSON structure
+    // Parse size filters
+    const requestedAvailableSizes = filters.available_size
+      ? (filters.available_size as string).split(',').map((s) => s.trim())
+      : null
+    const requestedSizes = filters.size
+      ? (filters.size as string).split(',').map((s) => s.trim())
+      : null
 
     const orderBy: Prisma.ShoesOrderByWithRelationInput[] = []
     if (filters.price) {
@@ -98,23 +102,45 @@ router.get('/', async (req: Request, res: Response) => {
       })
     }
 
+    // Fetch all shoes matching brand filter first
+    let allShoes = await prisma.shoes.findMany({
+      where,
+      orderBy,
+      include: { product: true },
+    })
+
+    // Filter by size in memory (since Prisma JSON array filtering is complex)
+    if (requestedAvailableSizes && requestedAvailableSizes.length > 0) {
+      allShoes = allShoes.filter((shoe) => {
+        const availableSizes = Array.isArray(shoe.available_size)
+          ? shoe.available_size
+          : typeof shoe.available_size === 'string'
+            ? JSON.parse(shoe.available_size)
+            : []
+        return requestedAvailableSizes.some((size) =>
+          availableSizes.includes(size),
+        )
+      })
+    }
+
+    if (requestedSizes && requestedSizes.length > 0) {
+      allShoes = allShoes.filter((shoe) => {
+        const sizes = Array.isArray(shoe.size)
+          ? shoe.size
+          : typeof shoe.size === 'string'
+            ? JSON.parse(shoe.size)
+            : []
+        return requestedSizes.some((size) => sizes.includes(size))
+      })
+    }
+
+    // Apply pagination after filtering
     const take = filters.limit ? parseInt(filters.limit as string, 10) : undefined
     const page = filters.page ? parseInt(filters.page as string, 10) : 1
     const skip = take ? (page - 1) * take : undefined
 
-    // Fetch the total count of matching records
-    const totalCount = await prisma.shoes.count({
-      where,
-    })
-
-    // Fetch the paginated data
-    const shoes = await prisma.shoes.findMany({
-      where,
-      orderBy,
-      take,
-      skip,
-      include: { product: true },
-    })
+    const totalCount = allShoes.length
+    const shoes = take ? allShoes.slice(skip, skip! + take) : allShoes
 
     return res.json({
       total: totalCount,
